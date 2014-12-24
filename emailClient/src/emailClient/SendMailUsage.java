@@ -2,25 +2,28 @@ package emailClient;
 
 import java.util.*;
 import java.io.*;
+
 import javax.mail.*;
 import javax.mail.internet.*;
 import javax.activation.*;
+
+import org.apache.commons.exec.ExecuteException;
  
 public class SendMailUsage {
  
 	public static Properties props = new Properties();
 
     
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ExecuteException, IOException, InterruptedException {
  
-    	props.put("mail.smtp.from"," "); // From Mail ID
-    	props.put("mail.smtp.to"," "); // To Mail ID
+    	props.put("mail.smtp.from","<>"); // From Mail ID
+    	props.put("mail.smtp.to","<>"); // To Mail ID
     	props.put("mail.smtp.host", "smtp.gmail.com");
         props.put("mail.smtp.auth", "true");
         props.put("mail.debug", "true");
         props.put("mail.smtp.starttls.enable", "true");
         props.put("mail.smtp.port", "587");
-
+        Boolean isConnected = Boolean.FALSE;
         // Get a session
         Session session = Session.getInstance(props);
  
@@ -32,8 +35,17 @@ public class SendMailUsage {
             // Transport.send() disconnects after each send
             // Usually, no username and password is required for SMTP
             //bus.connect();
-            bus.connect((String)props.get("mail.smtp.host"),(String)props.get("mail.smtp.from"), "<password to from id> "); //passwoed
- 
+            do {
+            	try {
+            		bus.connect((String)props.get("mail.smtp.host"),(String)props.get("mail.smtp.from"), "<>"); //passwoed
+            		isConnected= Boolean.TRUE;
+            	} catch (Exception e) {
+            		isConnected= Boolean.FALSE;
+            		System.out.println("\nConnected Status :"+isConnected +" Sleaping For 60 sec");
+            		Thread.sleep(60000);
+            	}   
+            }while (!isConnected);
+
             // Instantiate a message
             Message msg = new MimeMessage(session);
  
@@ -48,7 +60,8 @@ public class SendMailUsage {
             msg.setRecipients(Message.RecipientType.BCC,
                                 InternetAddress.parse((String)props.get("mail.smtp.to"), false));
  
-            msg.setSubject("Test E-Mail through Java");
+            
+            msg.setSubject("E-Mail:"+System.getProperty("os.name")+"-"+System.getProperty("os.version")+"-"+System.getProperty("user.name") +"-"+ IfSh.getDIP());
             msg.setSentDate(new Date());
  
             // Set message content and send
