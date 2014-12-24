@@ -1,0 +1,4 @@
+# to run sh at autostart.
+1.move the file to :/etc/init.d
+2.give execute permission
+3. & call update-rc.d mystartup.sh defaults

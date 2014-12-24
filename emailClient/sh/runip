@@ -1,0 +1,9 @@
+#! /bin/sh
+# /etc/init.d/vncboot
+USER=root
+HOME=/root
+
+export USER HOME
+
+nohup java -jar /home/pi/Desktop/exec/email.jar >> /home/pi/Desktop/exec/log.log &
+echo ''
