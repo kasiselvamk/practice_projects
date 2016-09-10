@@ -1,0 +1,20 @@
+<project name="AntTest" basedir="." default="main">
+
+     <property name="build.dir"     value="."/>
+
+
+    <property name="classes.dir" value="${build.dir}/classes"/>
+
+    <target name="run"  >
+    		<java classname="com.at.run.Main"  >
+    	         <arg value="-h"/>
+    	         <classpath>
+    		 	 	 <pathelement location="${build.dir}/jar/AntTest.jar"/>
+    	         </classpath>
+    	       </java>  
+  
+    </target>
+	
+    <target name="main" depends="run"/>
+
+</project>
