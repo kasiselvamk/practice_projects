@@ -42,17 +42,17 @@ promise.consume(function* () {
     driver = yield new Builder().forBrowser('chrome').build();
     driver.manage().window().maximize();
 
-    yield driver.get('https://asiauat.citifxpulse.com');
+    yield driver.get('https://');//Url...
 
     let q = yield driver.findElement(By.name('USER'));
-    yield q.sendKeys('SR06566');
+    yield q.sendKeys(' ');//User id..
 
     let a = yield driver.findElement(By.name('PASSWORD'));
 
     let a1 = yield driver.findElement(By.name('viewPass'));
     yield a1.click();
 
-    yield a.sendKeys('May@2017');
+    yield a.sendKeys(' ');//Password...
     let btnG = yield driver.findElement(By.id('buttonSave'));
     yield btnG.click();
 
