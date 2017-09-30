@@ -1,0 +1,61 @@
+GET /_cat/indices?v
+DELETE /tamildec?pretty
+PUT /customer?pretty
+
+GET /_stats
+
+POST twitter/tweet/
+{
+    "user" : "kimchy",
+    "post_date" : "2009-11-15T14:12:12",
+    "message" : "trying out Elasticsearch"
+}
+
+GET /tamildec/
+
+GET /shakespeare/
+
+
+PUT /tamildec
+{
+ "mappings" : {
+  "_default_" : {
+   "properties" : {
+     "id" : { "type" : "long"},
+    "key" : {"type": "text", "index" : "true" },
+    "val" : {"type": "text", "index" : "false" }
+    
+   }
+  }
+ }
+}
+
+
+POST /shakespeare/_search
+{
+    "query" : {
+        "match_all" : {}
+    }
+    
+}
+POST /tamildec/_search
+{
+      "from" : 0, "size" : 1,
+
+    "query" : {
+        "match_all" : {}
+    }
+    
+}
+POST /tamildec/_search
+{
+    "query": {
+        "bool" : {
+            "must" : {
+                "query_string" : {
+                    "query" : "இதோ"
+                }
+            }
+        }
+    }
+}
