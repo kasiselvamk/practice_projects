@@ -12,7 +12,7 @@ import org.jsoup.select.Elements;
 
 import com.google.gson.Gson;
 
-public class createJSON {
+public class createJSONForDictionary {
 	public static String pathname = "/home/kasi/Downloads/data/";
 	public static DAO dao=null;	
 	public static bulkDAO bulk=null;
