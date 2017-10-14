@@ -59,3 +59,21 @@ POST /tamildec/_search
         }
     }
 }
+
+{
+  "kuralid"    :
+  "titleid"    :
+  "kural" : 
+   "pal"  :
+   "palsub" :
+   "title" :
+}
+
+{
+  "kuralid" : 
+  "lang" :
+  "author" :
+  "linenumber" :
+  "explanation" :
+  
+}
