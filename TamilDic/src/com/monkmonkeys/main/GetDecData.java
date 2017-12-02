@@ -12,7 +12,7 @@ import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.HttpClientBuilder;
 
-public class GetData {
+public class GetDecData {
 
 	public static void main(String[] args) throws ClientProtocolException, IOException {
  
