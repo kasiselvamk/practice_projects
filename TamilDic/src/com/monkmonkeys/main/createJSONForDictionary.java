@@ -1,7 +1,8 @@
 package com.monkmonkeys.main;
 
 import java.io.File;
-import java.io.FileWriter;
+import java.io.FileOutputStream;
+import java.io.OutputStreamWriter;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -13,17 +14,17 @@ import org.jsoup.select.Elements;
 import com.google.gson.Gson;
 
 public class createJSONForDictionary {
-	public static String pathname = "/home/kasi/Downloads/data/";
+	public static String pathname = "C:\\Users\\kasis\\git\\git\\TamilDic\\data\\";
 	public static DAO dao=null;	
 	public static bulkDAO bulk=null;
 	public static Long id =-1l;
 	public static Integer tmp;
 	public static Gson gson = new Gson();
 	public static Map<String,bulkDAO> elasticBulk = new HashMap();
-	public static FileWriter file=null;
+	public static OutputStreamWriter file=null;
 
 	public static void main(String[] args) throws Exception {
-		file = new FileWriter("/home/kasi/Downloads/tamildec.json");
+		 file=	 new OutputStreamWriter(new FileOutputStream("C:\\Users\\kasis\\git\\git\\TamilDic\\tamildec.json"), "UTF-8");
 		try {
 			for (int i = 1; i <=4351; i++) {
 				File in = new File(pathname+i+".html");
@@ -42,7 +43,7 @@ public class createJSONForDictionary {
 	static void createJSONforUpload(File in) throws Exception {
 		Document doc = Jsoup.parse(in,"UTF-8");
 		Elements el = doc.getElementsByTag("table");
-		Element elTable = el.get(4);
+		Element elTable = el.get(2);
 		Elements  elTabletr =  elTable.getElementsByTag("tr");
 		for (Element element : elTabletr) {
 			Elements  elTabletd =  element.getElementsByTag("td");

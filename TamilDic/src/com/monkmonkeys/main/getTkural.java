@@ -37,7 +37,7 @@ public class getTkural {
 			 response = client.execute(request);
 			 code =  response.getStatusLine().getStatusCode();
               if(code == 200 ) {
-            	 FileUtils.copyInputStreamToFile(response.getEntity().getContent(), new File("/home/kasi/eclipse-workspace/TamilDic/data/Tkural_"+i+".html"));
+            	 FileUtils.copyInputStreamToFile(response.getEntity().getContent(), new File("C:\\Users\\kasis\\git\\git\\TamilDic\\tiru\\"+i+".html"));
   			   System.out.println(i +" Done");
              }else {
             	 System.out.println(i +"-"+code+" Not Done!");

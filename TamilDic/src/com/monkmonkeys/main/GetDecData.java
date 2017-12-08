@@ -17,7 +17,7 @@ public class GetDecData {
 	public static void main(String[] args) throws ClientProtocolException, IOException {
  
 		//http://www.tamilvu.org/library/l0B00/html/l0B00ind.htm
-		String url = "http://www.tamilvu.org/slet/servlet/lexpg?pageno=";
+		String url = "http://www.tamilvu.org/slet/pmdictionary/lexpser_new.jsp?pageno=";
 
 		HttpClient client = HttpClientBuilder.create().build();
 		HttpGet request = null;HttpResponse response=null;HttpEntity e=null; InputStream data =null;
@@ -25,7 +25,7 @@ public class GetDecData {
 		for(Integer i=1;i<=4351;i++) {
 			 request = new HttpGet(url+i);
 			 response = client.execute(request);
-	           FileUtils.copyInputStreamToFile(response.getEntity().getContent(), new File("/home/kasi/eclipse-workspace/TamilDic/data/"+i+".html"));
+	           FileUtils.copyInputStreamToFile(response.getEntity().getContent(), new File("C:\\Users\\kasis\\git\\git\\TamilDic\\data\\"+i+".html"));
 			   System.out.println(i +" Done");
 		}
 		
