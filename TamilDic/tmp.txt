@@ -77,3 +77,15 @@ POST /tamildec/_search
   "explanation" :
   
 }
+
+
+POST /tamildec/_search
+{
+    "query": {
+        "bool" : {
+            "filter" : {
+                "term" : { "key" : "இதோ" }
+            }
+        }
+    }
+}
