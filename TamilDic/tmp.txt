@@ -89,3 +89,15 @@ POST /tamildec/_search
         }
     }
 }
+
+
+POST /thirukkural/_search
+{
+    "query": {
+        "bool" : {
+            "filter" : {
+                "term" : { "kuralid" : 1 }
+            }
+        }
+    }
+}
