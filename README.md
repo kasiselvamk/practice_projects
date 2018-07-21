@@ -1,2 +1,1 @@
-unblock elasticserch port form firewall 
-iptables --list |grep 9200
+unblock elasticserch port form firewall --> iptables --list |grep 9200
