@@ -72,6 +72,8 @@ X,Y = _df.iloc[:,:1:2].values, _df.iloc[:,:4:5].values
 X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.20, random_state=42)
 
 
-
+#simple leaner -- >  has one x attributes to get y.
+#multiple leaener --> more x's to get y
+#polinomial regression --> where data grow exponential.
 
 
