@@ -101,7 +101,7 @@ Y_test_pred = lr.predict( X_test  )
 mse = mean_squared_error(Y_test, Y_test_pred , multioutput='raw_values')
 
 # Explained variance score: 1 is perfect prediction
-print('Variance score: %.2f' % r2_score(Y_test, Y_test_pred))
+print('Variance score: %.2f' % r2_score(Y_test, Y_test_pred)) #To show accurucy of module.
 # Plot outputs
 plt.scatter(X_test, Y_test,  color='red')
 plt.plot(X_test, Y_test_pred, color='blue', linewidth=1)
