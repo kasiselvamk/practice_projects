@@ -77,3 +77,39 @@ X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.20, random
 #polinomial regression --> where data grow exponential.
 
 
+#D2
+
+import pandas as pd
+import matplotlib.pyplot as plt
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import  LinearRegression
+from sklearn.metrics import mean_squared_error,r2_score
+
+_df=pd.read_csv("C:/Users/RPS/Desktop/kasiselvamk/data/Salary_Data.csv")
+X,Y =  _df.iloc[ :, :-1 ].values, _df.iloc[:, 1].values
+print(X)
+print(Y)
+X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.20, random_state=0)
+lr=LinearRegression()
+lr.fit(X_train,Y_train)
+Y_test_pred = lr.predict( X_test  )
+print(Y_test_pred )
+ print('Coefficients: \n', lr.coef_)
+# The mean squared error
+ 
+ print(Y_test )
+ print(Y_test_pred )
+print("Mean squared error: %.2f" % mean_squared_error(Y_test, Y_test_pred))
+# Explained variance score: 1 is perfect prediction
+print('Variance score: %.2f' % r2_score(Y_test, Y_test_pred))
+
+
+# Plot outputs
+plt.scatter(X_test, Y_test,  color='red')
+plt.plot(X_test, Y_test_pred, color='blue', linewidth=1)
+
+plt.xticks(())
+plt.yticks(())
+
+plt.show()
+
