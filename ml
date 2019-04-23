@@ -64,6 +64,12 @@ print(raData_scalled)
  #Machine Learning --> supervised,un-suprovised , semi-supervised, re-enforsed learning ,deap learning.
  
  
+import pandas as pd
+import numpy as np
+from sklearn.model_selection import train_test_split
+_df=pd.read_csv("C:/Users/RPS/Desktop/kasiselvamk/data/MSFT_Stocks.csv")
+X,Y = _df.iloc[:,:1:2].values, _df.iloc[:,:4:5].values
+X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.20, random_state=42)
 
 
 
