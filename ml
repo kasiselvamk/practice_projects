@@ -62,7 +62,7 @@ print(raData_scalled)
  
  
  #Machine Learning --> supervised,un-suprovised , semi-supervised, re-enforsed learning ,deap learning.
- 
+ #https://archive.ics.uci.edu/ml/datasets.php?format=&task=&att=&area=&numAtt=&numIns=&type=&sort=instDown&view=table
  
 import pandas as pd
 import numpy as np
