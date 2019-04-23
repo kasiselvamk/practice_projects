@@ -61,7 +61,7 @@ raData_scalled = minmaxscal.transform(raData[:,1:3])
 print(raData_scalled)
  
  
- 
+ #Machine Learning --> supervised,un-suprovised , semi-supervised, deap learning.
  
  
 
