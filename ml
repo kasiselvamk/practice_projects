@@ -123,3 +123,10 @@ plt.yticks(())
 plt.show()
 
 
+
+
+### Nurual n/w.
+activators - 9 activatesr as per ppt.
+1)Single Layer network
+2.) multiple layer network
+
