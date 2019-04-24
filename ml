@@ -76,6 +76,8 @@ X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.20, random
 #multiple leaener --> more x's to get y                    y=b0+b1*x1 +b2*x2 + ....
 #polinomial regression --> where data grow exponential.
 
+#if data points not falls on above 3 module, we has to go for Hyper Plain/curvature plan - has to do distance measure as well.
+#above can achive by using ``support vector regression (SVR)``
 
 #D2
 
