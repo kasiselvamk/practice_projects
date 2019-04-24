@@ -129,4 +129,5 @@ plt.show()
 activators - 9 activatesr as per ppt.
 1)Single Layer network
 2.) multiple layer network
+3.) Apriori algorithm --> for e-comus and used for Deap mining.
 
