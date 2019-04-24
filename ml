@@ -82,7 +82,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.20, random
  ---> SV regression
  
 #Decision Tree algoithm --> based on entropy calculation we can determin root node.
-
+#Logistic Regression --> if output is 1 or 0 --, Then we can use it.
 
 #D2
 
