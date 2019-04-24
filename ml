@@ -88,7 +88,7 @@ K_Nearest Neighbour -KNN. --> get nerest neighbour and user that value.
 
 un-suprvised :-
   clusering -K-mean 
-
+  naive bayes algorithm
 
 #D2
 
