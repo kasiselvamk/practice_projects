@@ -130,4 +130,38 @@ activators - 9 activatesr as per ppt.
 1)Single Layer network
 2.) multiple layer network
 3.) Apriori algorithm --> for e-comus and used for Deap mining.
+   
+import numpy as np
+import pandas as pd
+from apyori import apriori
+import matplotlib.pyplot as plt
+import networkx as nx
+plt.style.use('ggplot')
+plt.figure(figsize=(9,6))
 
+data=np.array([
+   ['Milk','Bread','Apple'],
+   ['Milk','Bread'],
+   ['Milk','Bread','Apple', 'Banana'],
+   ['Milk', 'Banana','Rice','Chicken'],
+   ['Apple','Rice','Chicken'],
+   ['Milk','Bread', 'Banana'],
+   ['Rice','Chicken'],
+   ['Bread','Apple', 'Chicken'],
+   ['Bread','Chicken'],
+   ['Apple', 'Banana']])
+
+result=(list(apriori(data)))
+df=pd.DataFrame(result)
+
+print(df.iloc[6:19][['items','support']]) # Only get items with two pair sets. They start from index 6 to 19
+
+ar=(df.iloc[6:19]['items'])
+G = nx.Graph()
+G.add_edges_from(ar)
+pos = nx.spring_layout(G)
+nx.draw(G, pos, font_size=16, with_labels=False, edge_color='green',node_size=50,node_color=['red','green','blue','cyan','orange','magenta'])
+for p in pos:  
+    pos[p][1] += 0.07
+nx.draw_networkx_labels(G, pos)
+plt.show()
