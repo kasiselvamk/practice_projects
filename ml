@@ -72,6 +72,7 @@ X,Y = _df.iloc[:,:1:2].values, _df.iloc[:,:4:5].values
 X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.20, random_state=42)
 
 
+supervised:-
 #simple leaner -- >  has one x attributes to get y.       y=b0 + b1*x1
 #multiple leaener --> more x's to get y                    y=b0+b1*x1 +b2*x2 + ....
 #polinomial regression --> where data grow exponential.
@@ -83,6 +84,11 @@ X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.20, random
  
 #Decision Tree algoithm --> based on entropy calculation we can determin root node.
 #Logistic Regression --> if output is 1 or 0 --, Then we can use it.
+K_Nearest Neighbour -KNN. --> get nerest neighbour and user that value.
+
+un-suprvised :-
+  clusering -K-mean 
+
 
 #D2
 
