@@ -8,9 +8,5 @@ firewall-cmd --add-port=9200/tcp --permanent;;;;;;
 Tamil to Latin ,English unicode ---> ISO 15919 transcription (https://r12a.github.io/scripts/tamil/block#symbols)
 https://github.com/Ezhil-Language-Foundation/open-tamil/blob/master/README.md
 
+You are not authorized to access this page.
 
- Reference ID: - N/A
-
-Citi Velocity RequestID: - 4-01-CV-UCVYTWIZAA6Y6YWRAMK33PMJLEJPAMG381726903@4-42724
-
-Date and time: 2020.11.12 01:10:18 EST
