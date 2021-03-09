@@ -13,3 +13,5 @@ Reference ID: - N/A
 Citi Velocity RequestID: - 4-04-CV-UCVJKEKCAFS61RFFBR9MSWJUJKWMPIG767589301@4-260138
 
 Date and time: 2020.11.12 07:20:19 EST
+
+在做汇率更新时遇到问题,请再次登陆账户
