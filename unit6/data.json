@@ -1,0 +1,176 @@
+[
+    {
+        "unitid": "U6",
+        "id": 1,
+        "title": "",
+        "points": {},
+        "paragraphs": [
+            "Perimeter : Sum Of the lengths of the boundaries is called its perimeter.",
+            "Area : The magnitude of a plane region is called its area.",
+            "Area of a triangle $@\"='\\frac{1}{2}'\\times base\\times height\"@$",
+            "Perimeter of a triangle $@\"a + b + c = 2S\"@$",
+            "S = Semi perimeter $@\"='\\frac{a+b+c}{2}'\"@$",
+            "Area of Scalene triangle = $@\"\\sqrt'{s(s-a)(s-b)(s-c)}'\"@$",
+            "Altitude of an equilateral triangle = $@\"\\frac'{\\sqrt3}{2}'\\times a^2\"@$",
+            "Area of an equilateral triangle",
+            "Perimeter of an eql. $@\"=3a\"@$",
+            "Area of a Quadrilateral = $@\"'\\frac{1}{2}'\\times d \\times (h_1+h_2)\"@$",
+            "Area of a Trapezium = $@\"'\\frac{1}{2}'\\times h\\times (a+b)\"@$",
+            "(a, b are the lengths of the parallel sides)",
+            "Area of a parallelogram $@\"= base x altitude\"@$",
+            "Area of rhombus = $@\"base\\times height\\;(or)\\;'\\frac{1}{2}'\\times d_1\\times d_2\"@$",
+            "(when the diagonals are given)",
+            "Perimeter of a rhombus $@\"= 4 \\times Side\"@$",
+            "Area of a rectangle $@\"=length x breadth\"@$",
+            "Perimeter of a rectangle $@\"2\\times (1+b)\"@$",
+            "Diagonal of a rectangle $@\"=\\sqrt'{l^2+h^2}'=d\"@$",
+            "Area of a Square = Side x Side or",
+            "$@\"'\\frac{1}{2}'\\times d^2\\; d=diagonal\"@$",
+            "Perimeter of a Square $@\"= 4 x Side\"@$",
+            "diagonal of a square $@\"=\\sqrt '{2}'\\times Side\"@$",
+            "Area of a Circle = $@\"\\pi r^2\"@$",
+            "Circumference of a Circle = $@\"2\\pi r\\;or\\;\\pi d\"@$",
+            "Area of a Sector of a circle $@\"'\\frac{\\theta }{360}' \\pi r^2\"@$",
+            "($@\"\\theta \"@$ is angle at the centre)",
+            "Perimeter of the Sector = $@\"l+ 2r\"@$",
+            "Area of the Sector = $@\"'\\frac{1}{2}'lr^2\"@$",
+            "Area of the Segrnent APB",
+            "= Area of Sector AOBP - Area of AAOB",
+            "$@\"\\begin'{bmatrix}''\\frac{\\theta}{360}' \\pi r^2 - '\\frac{1}{2}'r^2 \\sin \\theta \\end'{bmatrix}'\"@$",
+            "Area of Circular ring = $@\"\\pi (R^2 - r^2)\"@$"
+        ]
+    },
+    {
+        "unitid": "U6",
+        "id": 2,
+        "title": "",
+        "points": {},
+        "paragraphs": [
+            "Standard Units of legth",
+            "$@\"10 mm = 1cm\"@$",
+            "$@\"10 cm = 1dm\"@$",
+            "$@\"10 dm = 1m\"@$",
+            "$@\"10m = 1 dam (decametre)\"@$",
+            "$@\"10 dam = 1 hm (hectometre)\"@$",
+            "$@\"10 hm =1 km (Kilometre)\"@$",
+            "Standard Units of area",
+            "$@\"100 mm^2 = 1 cm^2\"@$",
+            "$@\"100 cm^2 = 1 dm^2\"@$",
+            "$@\"100 dm^2 = 1 m^2\"@$",
+            "$@\"100 m^2 = 1 dam^2\"@$",
+            "$@\"100 dam^2 = 1 hm^2\"@$",
+            "$@\"100 hm^2 = 1 km^2\"@$",
+            "$@\"1 m^2 = 10000 cm^2\"@$",
+            "$@\"100 m^2 = 1 Are\"@$",
+            "$@\"100 Are = 1 hectare\"@$",
+            "$@\"100000 m^2 = 1 hectare\"@$"
+        ]
+    },
+    {
+        "unitid": "U6",
+        "id": 3,
+        "title": "",
+        "points": {},
+        "paragraphs": [
+            "Volume:",
+            "A Space occupied by a matter",
+            "Cuboid:",
+            "A Cuboid has 6 faces [ABCD, ABIIG, Al)EG,",
+            "A Cuboid has 12 edges b h [AB, BC, CD, DA, MI, JIG, EG, AGO",
+            "A Cuboid has 8 vertices",
+            "Volume of a Cuboid = $@\"l\\times b\\times h\"@$",
+            "Surface area of a Cuboid $@\"2\\times[lb+bh+hl]\"@$",
+            "Length of the longest diagonal $@\"\\sqrt '{l^2+b^2+c^2}'\"@$"
+        ]
+    },
+    {
+        "unitid": "U6",
+        "id": 4,
+        "title": "",
+        "points": {},
+        "paragraphs": [
+            "Cube :",
+            "a) A Cube is a cuboid whose length, breadth and height are all equal.",
+            "b) Volume of a Cube = $@\"Side\\times Side\\times Side =\\;a^3\"@$",
+            "Surface area of a Cube = $@\"6\\times Side^2 = 6a^2\"@$",
+            "Length of the longest diagonal $@\"\\sqrt 3 \\times a\"@$",
+            "Area of the four walls of a room $@\"2h (l+b) =\\;Perimeter\\;of\\;the\\;floor \\times\\;height\"@$"
+        ]
+    },
+    {
+        "unitid": "U6",
+        "id": 5,
+        "title": "",
+        "points": {},
+        "paragraphs": [
+            "Cylinder :",
+            "Volume = $@\"\\pi r^2 h\"@$",
+            "Curved Surface Area = $@\"2\\pi rh\"@$",
+            "Total Surface Area = $@\"2\\pi r (h + r)\"@$"
+        ]
+    },
+    {
+        "unitid": "U6",
+        "id": 6,
+        "title": "",
+        "points": {},
+        "paragraphs": [
+            "Cone :",
+            "Volume = $@\"'\\frac{1}{3}' \\pi r^2h\"@$",
+            "Curved Surface Area = $@\"\\pi rl\"@$",
+            "Slant height l = $@\"\\sqrt '{r^2+h^2}'\"@$",
+            "Total Surface Area $@\"\\pi r(l+r)\"@$"
+        ]
+    },
+    {
+        "unitid": "U6",
+        "id": 7,
+        "title": "",
+        "points": {},
+        "paragraphs": [
+            "Sphere :",
+            "Volume = $@\"'\\frac{4}{3}' \\pi r^3\"@$",
+            "Surface Area = $@\"4\\pi r^2\"@$"
+        ]
+    },
+    {
+        "unitid": "U6",
+        "id": 8,
+        "title": "",
+        "points": {},
+        "paragraphs": [
+            "Hemisphere :",
+            "Volume = $@\"'\\frac{2}{3}' \\pi r^3\"@$",
+            "Total Surface Area = $@\"3 \\pi r^2\"@$",
+            "Curved Surface Area = $@\"2 \\pi r^2\"@$"
+        ]
+    },
+    {
+        "unitid": "U6",
+        "id": 9,
+        "title": "",
+        "points": {},
+        "paragraphs": [
+            "Frustum of a Cone",
+            "If a cone is cut by a plane parallel to the base of the cone,",
+            "then the portion between the plane and base is called the frustum of the cone.",
+            "Volume of frustum = $@\"'\\frac{\\pi h}{3r}'(R^3+r^3)\"@$ (or)",
+            "Volume of Bigger Cone - Volume of Smaller Cone"
+        ]
+    },
+    {
+        "unitid": "U6",
+        "id": 10,
+        "title": "",
+        "points": {},
+        "paragraphs": [
+            "Standard Unit of Volume",
+            "$@\"1\\;cm^3 = 1000\\;mm^3\"@$",
+            "$@\"1\\;dm^3 = 1000\\;cm^3\"@$",
+            "$@\"1\\;m^3 = 1000\\;dm^3\"@$",
+            "$@\"1\\;litre = 1\\;dm^3 = 1000\\;cm^3\"@$",
+            "$@\"1\\;ml = 1\\;cm^3\"@$",
+            "$@\"1\\;kl = 1000\\;ltr. = 10^6\\;cm^3\"@$"
+        ]
+    }
+]
