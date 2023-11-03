@@ -1,0 +1,157 @@
+[
+        {
+            "unitid": "U4",
+            "id": 1,
+            "title": "Ratio",
+            "paragraphs": [
+                "Comparison of two of two quantities of the same kind will result in a ratio.",
+                "The ratio of a number 'a' to another number 'b'  $@(b \\neq 0)@$ is the quotient  $@\\frac{a}{b}@$ and is written as $@a:b@$ where 'a' and 'b' are called its terms. ",
+                "If should the two be quantities are in same the same unit(kind) they should be converted into the same unit.",
+                "E.g. (i) 7 Boys, 9 Girls",
+                "Ratio of Boys to girls is 7 : 9",
+                "Ratio of Girls to boys is 9 : 7",
+                " (ii)1 dozen to 1 score ",
+                " 1 doz. = 12 items ; 1 score = 20 items",
+                "therefore Ratio is 12:20  $@\\lbrack \\frac{12}{4} : \\frac{20}{4} \\rbrack@$ 3:5",
+                "Note: $@3:4=6:8@$",
+                "$@20:30=2:3@$"
+            ],
+            "points": {},
+        },
+        {
+            "unitid": "U4",
+            "id": 2,
+            "title": "Proportion",
+            "paragraphs": ["When two ratios are equal they are said to be in proportion. ",
+            "$@4:5 = 24:30@$",
+            " $@4\\times30=5\\times24=120@$",
+            "So, Product of means = Product of extremes in a proportion. ",
+            "$@4:K :: K:16@$",
+            "$@K^2 = 4\\times16=64@$",
+            " $@K^2=8^2 \\implies K=8@$",
+            "K is called the mean proportional between 4 and 16. "
+            ],
+            "points": {},
+        },
+        {
+            "unitid": "U4",
+            "id": 3,
+            "title": "Percentage and its Applications",
+            "points": {},
+            "paragraphs": [
+                "Percentage : A fraction with its denominator as 100 is called a percent.",
+               "E.g. 9:100 is 9% or $@\\frac{9}{100}@$ = 9%",
+               "(i)  $@ \\frac{16}{25} = \\frac{16}{25} \\times 100@$ = 64%",
+               "(ii) 75 % = $@\\frac{75}{100} = \\frac{3}{4}@$ or 3:4"
+            ],
+        },
+        {
+            "unitid": "U4",
+            "id": 4,
+            "title": "Cost Price and Selling Price",
+            "points": {},
+            "paragraphs": [
+                "The money paid by the shopkeeper to buy the goods is called the Cost price (C.P.) and ",
+                "the price at which the goods are sold is called the Selling Price (S.P.).",
+                "C.P. includes overhead charges also. "
+            ],
+        },
+        {
+            "unitid": "U4",
+            "id": 5,
+            "title": "Marked Price",
+            "points": {},
+            "paragraphs": [
+                "The price that is mentioned on a commodity is called the Marked Price."
+            ],
+        },
+        {
+            "unitid": "U4",
+            "id": 6,
+            "title": "Profit and Loss",
+            "points": {},
+            "paragraphs": [
+                "If S.P > C.P., Profit = S.P. - C.P. ",
+                "If S.P < C.P. Loss = C.P. - S.P. ",
+                "Profit %=$@\\frac{Profit}{C.P} \\times100@$ ",
+                "Loss%=$@\\frac{Loss}{C.P} \\times100@$ ",
+                "$@S.P=C.P. + Gain or C.R - Loss@$",
+                "S.P= $@\\frac{100-Loss\\%}{100} \\times C.P @$ or ",
+                "S.P= $@\\frac{100-Gain\\%}{100} \\times C.P @$"
+            ],
+        },
+        {
+            "unitid": "U4",
+            "id": 7,
+            "title": "Simple Interest",
+            "points": {},
+            "paragraphs": [
+                "Simple Interest S.I = $@\\frac{PTR}{100}@$ Where P = Principal, T = Time, R = Rate of interest.",
+                "Amount 'A' = P + S.I. "
+            ],
+        },
+        {
+            "unitid": "U4",
+            "id": 8,
+            "title": "Discount",
+            "points": {},
+            "paragraphs": [
+                "Discount is offered on the Marked Price (M.P.) of the article by the shopkeeper and is generally expressed as a percentage of the M.P."
+            ],
+        },
+        {
+            "unitid": "U4",
+            "id": 9,
+            "title": "Compound Interest",
+            "points": {},
+            "paragraphs": [
+                "Amount $@A =\\Pleft(1+\\frac{r}{100}\\right)^n@$ ",
+                "and C.I. = $@A - P@$ or ",
+                "$@P \\begin{bmatrix} \\left(1+\\frac{r}{100}\\right)^n -1 end{bmatrix} @$",
+                "Where P is the principal, r is the rate of interest and n is the number of times that interest being calculated."
+            ],
+        },
+        {
+            "unitid": "U4",
+            "id": 10,
+            "title": "Growth and Depreciation",
+            "points": {},
+            "paragraphs": [
+                "The increased quantity after certain growth (over a period of time) is found out by using the formula",
+                "$@A= P \\left(1+\\frac{r}{100}\\right)^n@$",
+                "In the case of depreciation, decay or decrease the rate r is replaced by (-r) in the formula",
+                "$@A= P \\left(1-\\frac{r}{100}\\right)^n@$"
+            ],
+        },
+        {
+            "unitid": "U4",
+            "id": 11,
+            "title": "Direct and Inverse Variation",
+            "points": {},
+            "paragraphs": [
+                "Direct Proportion : When x increases, y increases, when x decreases y decreases"
+            ],
+        },
+        {
+            "unitid": "U4",
+            "id": 12,
+            "title": "Inverse Proportion ",
+            "points": {},
+            "paragraphs": [
+                "When x increases, y decreases ; When x decreases y increases.",
+                "Eg. : 5 Men 10 Men  ; 10 days 5 days"
+            ],
+        },
+        {
+            "unitid": "U4",
+            "id": 13,
+            "title": "Speed, Distance and Time",
+            "points": {},
+            "paragraphs": [
+                "$@Average Speed = \\frac{distance\\;covered}{time\\;taken}@$ ",
+                "Note: 36 km/hr = 10 m/sec.",
+                "To convert km/hr to m/sec multiply by  $@\\frac{5}{18}@$",
+                "To convert m/sec to km/hr multiply by  $@\\frac{18}{5}@$"
+            ],   
+        }
+    ]
