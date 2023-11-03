@@ -1,0 +1,79 @@
+[
+    {
+        "unitid": "U12",
+        "id": 1,
+        "title": "",
+        "points": {},
+        "paragraphs": [
+            "To calculate interest on Savings Bank A/c :",
+            "The interest in this account is credited according to the following rules :",
+            "The interest for a particular month is computed on the minimum balance between the 10th day and the last day of the month.",
+            "Though the interest is computed month wise it is usually credited to the accounts yearly or half yearly.",
+            "Taxes :",
+            "a) To compute IT (Income Tax)",
+            "1. Calculate gross income for the financial year",
+            "2. Calculate standard deduction (SD) and other admissible deductions",
+            "3. Calculate taxable income (i.e) (1) rounded off to the nearest Rs. 10.",
+            "4. Calculate tax on the amount in (3) as per the given rate.",
+            "5. Calculate deposits on admissible deducitons for the tax rebate.",
+            "6. Calculate tax rebate under section 88",
+            "7. Calculate net tax (4) ? (6) rounded off to the nearest rupee."
+        ]
+    },
+    {
+        "unitid": "U12",
+        "id": 2,
+        "title": "",
+        "points": {},
+        "paragraphs": [
+            "Ratio :",
+            "Let a,b,c,d be four polynomials, then",
+            "Compounded ratio :",
+            "For the ratios a : b and c : d the compounded ratio is ac : bd.",
+            "Duplicate ratio :",
+            "The duplicate ratio of $@\"a:b \\; is\\; a^2:b^2\"@$",
+            "i.e. $@\"{{'\\frac{a}{d}'}}\\;is\\;{{'\\frac{a^2}{b^2}'}}\"@$",
+            "Triplicate ratio :",
+            "The triplicate ratio of $@\"a : b\\;or\\;{{'\\frac{a}{b}'}}\\;is\\;a^3:b^3\\;or {{'\\frac{a^3}{b^3}'}}\"@$",
+            "Sub-duplicate ratio :",
+            "Sub duplicate of $@\"a:b\\;is \\; \\sqrt a:\\sqrt b\"@$",
+            "Sub-triplicate ratio :",
+            "Subtriplicate of $@\"a:b\\;is\\;\\sqrt[3]a:\\sqrt[3]b\"@$",
+            "Reciprocal ratio :",
+            "For the ratio a : b, the ratio $@\" {{'\\frac{1}{a}'}}:{{'\\frac{1}{b}'}} = b: a \"@$ is the reciprocal",
+            "Proportion : Four quantities a, b, c and d are in proportion if a : b = c : d , a, dare extremes and b,c are means,",
+            "the term 'd' is called the fourth proportional to a, b and c.",
+            "",
+            "Continued Proportion : If a: b = b : c then a, b, c are in continued proportion and $@\"{{'\\frac{a}{b}'}}={{'\\frac{b}{c}'}}\\;So\\;b^2 = ac.\"@$",
+            "'b' is called the mean proportional between 'a' and 'c' and 'c' is called the third proportional to a and b."
+        ]
+    },
+    {
+        "unitid": "U12",
+        "id": 3,
+        "title": "",
+        "points": {},
+        "paragraphs": [
+            "Invertendo :",
+            "If $@\"a:b = c:d\\;then\\;b:a=d:c\"@$",
+            "Alternendo :",
+            "If $@\"a:b=c:d\\;then\\;a:c=b:d\"@$",
+            "Componendo :",
+            "If a: b = c: d then (a + b) : b = (c + d) : d",
+            "Dividendo",
+            "If $@\"a:b=c:d\\;then\\;(a - b) : b= (c -d) : d\"@$",
+            "Componendo and dividendo rule",
+            "If $@\"a: b = c: d\\;then\\;(a + b) : (a - b) = (c + d) : (c- d) \"@$",
+            "if $@\" {{'\\frac{a}{b}'}}= {{'\\frac{c}{d}'}}= {{'\\frac{e}{f}'}}= \\dots \"@$ then each ratio is",
+            "equal to $@\"{{'\\frac{a+c+e+\\dots }{b+d+f+\\dots}'}}\"@$",
+            "Factorization of Cyclic Expressions :",
+            "Symmetric expressions : An expression in 2 or more letters is said to be symmetric if it remains unaltered when any two letters in it are interchanged.",
+            "(e.g) $@\"ab + bc + ca \"@$",
+            "$@\"a^2(b-c)+b^2(c-a)+c^2(a-b)\"@$",
+            "So a symmetric expression is cyclic and can be expressed as $@\" \\displaystyle\\sum_{{'{a,b}'}} ab\\;and\\;\\displaystyle\\sum_{{'{a,b,c}'}} a^2(b-c)\"@$",
+            "Factorisation of such expressions in cyclic order can be done",
+            "a. By rearranging and regrouping and",
+            "b. By using 'factor theorem'."
+        ]
+    }
+]

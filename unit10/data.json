@@ -1,0 +1,29 @@
+[
+    {
+        "unitid": "U10",
+        "id": 1,
+        "title": "",
+        "points": {},
+        "paragraphs": [
+            "Simultaneous Equations :",
+            "When two quantities in two unknovvns are satisfied by the same pair of values for the two unknowns, they are said to be simultaneous equations.",
+            "$@\"Eg: 2x+4y=3\\;;\\;2x -6y = 9.\"@$",
+            "Solution of a system of equations :",
+            "If an ordered pair of values satisfies the system $@\"a_1x +b_1y + c_1 = 0\"@$ and",
+            "$@\"a_2x +b_2y + c_2 = 0\"@$ the pair is called the solution of the system of equations.",
+            "Consistent and inconsistent :",
+            "If a system has a solution then the system is said to be consistent othervvise inconsistent.",
+            "$@\"Eg: x +y = 4\\;x - 2y = 3\"@$ consistent",
+            "$@\"2x-y = 5\\; 4x - 2y = 8\"@$ Inconsistent.",
+            "Dependent dependent.:",
+            "The following system of equations is dependent.",
+            "$@\"Eg.\\;2x+5y =3\\;4x + 10y = 6. \"@$The lines here are coincident",
+            "If y = a the graph is a straight line parallel to x axis.",
+            "If x = b the graph is a straight line parallel toy axis.",
+            "For the equations : $@\"a_1x + b_1y = c_1\\;; a_2x + b_2y = c_2.\"@$",
+            "Cross multiplication method to find the Solution of a",
+            "system of equations",
+            "The equations are :"
+        ]
+    }
+]

@@ -1,0 +1,21 @@
+[
+    {
+        "unitid": "U13",
+        "id": 1,
+        "title": "",
+        "points": {},
+        "paragraphs": [
+            "If $@\"a^x = N\\;then\\;x\"@$ is said to be the logarithm of the number N to the base 'a' and is written as",
+            "$@\" \\log_a N = x\"@$",
+            "E.g. $@\"2^3 =8\\;;\\;\\log_2 8 = 3\"@$",
+            "Laws of logarithm",
+            "$@\"\\log_a mn = \\log_a m +\\log_a n \"@$",
+            "$@\"\\log_a {{'\\frac{m}{n}'}} = \\log_a m - log_a n \"@$",
+            "$@\" \\log_a m^n = n \\log_a m\"@$",
+            "Note :",
+            "$@\"\\log_a 1 = 0 \"@$ [log 1 to any base is 0]",
+            "$@\"\\log_a a = 1\"@$",
+            "Common logarithms have base 10, They are used for Calculations."
+        ]
+    }
+]

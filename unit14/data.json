@@ -1,0 +1,50 @@
+[
+    {
+        "unitid": "U14",
+        "id": 1,
+        "title": "",
+        "points": {},
+        "paragraphs": [
+            "The locus of a point is the set of all points which satisfy some given condition(s). The plural of locus is LOCI.",
+            "The locus of a point equidistant form two given points is the perpendicular bisector of the line segment joining the two points [Figure : 1.1]",
+            "The locus of a point equidistant form two intersecting lines is the pair of lines bisecting the angles formed by the given lines. [Figure 1.2]",
+            "AREA :",
+            "Parallelograms on equal bases and between same parallels are equal in area. Triangles on the same base and between the same parallels are equal in area. If a triangle and parallelogram are on the same base and between the same parallels, the area of the triangle is equal to half that of the parallelogram.",
+            "SIMILAR TRIANGLES :",
+            "Two triangles are said to be similar to each other if",
+            "(a) their corresponding angles are equal - and",
+            "(b) the lengths of their corresponding sides are proportional",
+            "Two polygons are said to be similar if",
+            "(a) their corresponding angles are equal and",
+            "(b) the lengths of their corresponding sides are proportional.",
+            "AAA Similarity :",
+            "If in two triangles corresponding angles are equal then the triangles are similar.",
+            "SSS Similarity :",
+            "If the corresponding sides of two triangles are proportional then the triangles are similar.",
+            "AA Corollary :",
+            "If two angles of one triangle are respectively gqual to two angles of another triangle, then the two triangles are similar.",
+            "SAS Similarity :",
+            "If in two triangles, one pair of corresponding sides are proportional and the included angles are equal then the two triangles are similar."
+        ]
+    },
+    {
+        "unitid": "U14",
+        "id": 2,
+        "title": "",
+        "points": {},
+        "paragraphs": [
+            "In a triangle, a line drawn parallel to one side to intersect the other two sides in distinct points divides the two sides in the same ratio.",
+            "If DE I I BC then AD/DB = AE/EC also AD/AB = AE/AC c",
+            "Converse:",
+            "In a triangle if a line divides any two sides proportionally then the line is parallel to the third side.",
+            "ANGLE BISECTOR THEOREM :",
+            "The bisector of an interior angle of a triangle divides the opposite side in the ratio of the sides containing the angle.",
+            "(i) AD is the bisector of LA, then $@\"{{'\\frac{AB}{AC}'}}={{'\\frac{BD}{DC}'}}\"@$",
+            "(ii) For exterior angle AE is the bisector of ext. LA, then $@\"{{'\\frac{AB}{AC}'}}={{'\\frac{BE}{CE}'}}\"@$",
+            "(BC is divided externally at E)",
+            "If triangle ABC triangle DEF then",
+            "(i)",
+            "(ii)"
+        ]
+    }
+]
