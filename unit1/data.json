@@ -1,495 +1,493 @@
-{
-  "hits": [
-    {
-      "uniqueid": "u1.23d56790",
-      "data": {
-        "unitid": "U1",
-        "id": 1,
-        "title": "Natural Numbers ",
-        "points": {},
-        "paragraphs": [
-          "Natural numbers are denoted by 'N'.numbers starting from '1 ' (one).",
-          "$@N = {1, 2, 3, 4, 5, .........}@$"
-        ]
-      }
-    },
-    {
-      "uniqueid": "u1.b0048728",
-      "data": {
-        "unitid": "U1",
-        "id": 2,
-        "title": "Whole Numbers",
-        "points": {},
-        "paragraphs": [
-          "Whole numbers are denoted by 'W'.numbers starting from '0' (zero).",
-          "$@W = {0, 1, 2, 3, 4, 5, .........}@$ "
-        ]
-      }
-    },
-    {
-      "uniqueid": "u1.bb1103c0",
-      "data": {
-        "unitid": "U1",
-        "id": 3,
-        "title": "Even Numbers",
-        "points": {},
-        "paragraphs": [
-          "Numbers which are the multiples of '2' are called 'Even Numbers '.",
-          "$@E = {2, 4, 6, 8, .........}@$ "
-        ]
-      }
-    },
-    {
-      "uniqueid": "u1.97c46f83",
-      "data": {
-        "unitid": "U1",
-        "id": 4,
-        "title": "Odd Numbers",
-        "points": {},
-        "paragraphs": [
-          "Numbers which are not the multiples of '2' are called 'Odd Numbers'.",
-          "$@Odd = {1, 3, 5, 7, .........}@$ "
-        ]
-      }
-    },
-    {
-      "uniqueid": "u1.8f9a1a0a",
-      "data": {
-        "unitid": "U1",
-        "id": 5,
-        "title": "",
-        "points": {},
-        "paragraphs": [
-          "The smallest Natural Number is '1 ' and the smallest Whole Number is '0'."
-        ]
-      }
-    },
-    {
-      "uniqueid": "u1.8b6d3f14",
-      "data": {
-        "unitid": "U1",
-        "id": 6,
-        "title": "",
-        "points": {},
-        "paragraphs": [
-          "There do not exist the largest Natural number and the largest Whole number."
-        ]
-      }
-    },
-    {
-      "uniqueid": "u1.45208eb4",
-      "data": {
-        "unitid": "U1",
-        "id": 7,
-        "title": "",
-        "points": {},
-        "paragraphs": [
-          "The successor of any whole number is one more than that whole number.",
-          "Ex : Successor of 11 is 12, $@(11 + 1)@$"
-        ]
-      }
-    },
-    {
-      "uniqueid": "u1.5d787a8f",
-      "data": {
-        "unitid": "U1",
-        "id": 8,
-        "title": "",
-        "points": {},
-        "paragraphs": [
-          "The predecessor of any whole number is one less than that whole number.",
-          "Ex : Predecessor of 11 is 10 $@(11 - 1)@$"
-        ]
-      }
-    },
-    {
-      "uniqueid": "u1.ae97261a",
-      "data": {
-        "unitid": "U1",
-        "id": 9,
-        "title": "",
-        "points": {},
-        "paragraphs": [
-          "There is no predecessor of zero in whole numbers."
-        ]
-      }
-    },
-    {
-      "uniqueid": "u1.6481388a",
-      "data": {
-        "unitid": "U1",
-        "id": 10,
-        "title": "Face value and place value",
-        "paragraphs": [],
-        "points": {
-          "p1": [
-            "Face value of a digit is the digit itsell",
-            "Ex.: Face value of '5' in 325 is '5'"
-          ],
-          "p2": [
-            "Place value of a digit is the value of the digit in its place.",
-            "Ex. : Place value of '5' in 352 is 50 $@[5 \\times 10]@$"
-          ]
-        }
-      }
-    },
-    {
-      "uniqueid": "u1.a4d5035c",
-      "data": {
-        "unitid": "U1",
-        "id": 11,
-        "title": "Consecutive Numbers",
-        "points": {},
-        "paragraphs": [
-          "The Numbers which differ from each other by one are called 'Consecutive Numbers'.",
-          "Ex. : 13, 14 and 19, 20 are consecutive numbers"
-        ]
-      }
-    },
-    {
-      "uniqueid": "u1.ff6de663",
-      "data": {
-        "unitid": "U1",
-        "id": 12,
-        "title": "Closure Property",
-        "paragraphs": [
-          "Let a, b and c be any three Whole Numbers. Then"
+[
+  {
+    "uniqueid": "u1.23d56790",
+    "data": {
+      "unitid": "U1",
+      "id": 1,
+      "title": "Natural Numbers ",
+      "points": {},
+      "paragraphs": [
+        "Natural numbers are denoted by 'N'.numbers starting from '1 ' (one).",
+        "$@N = {1, 2, 3, 4, 5, .........}@$"
+      ]
+    }
+  },
+  {
+    "uniqueid": "u1.b0048728",
+    "data": {
+      "unitid": "U1",
+      "id": 2,
+      "title": "Whole Numbers",
+      "points": {},
+      "paragraphs": [
+        "Whole numbers are denoted by 'W'.numbers starting from '0' (zero).",
+        "$@W = {0, 1, 2, 3, 4, 5, .........}@$ "
+      ]
+    }
+  },
+  {
+    "uniqueid": "u1.bb1103c0",
+    "data": {
+      "unitid": "U1",
+      "id": 3,
+      "title": "Even Numbers",
+      "points": {},
+      "paragraphs": [
+        "Numbers which are the multiples of '2' are called 'Even Numbers '.",
+        "$@E = {2, 4, 6, 8, .........}@$ "
+      ]
+    }
+  },
+  {
+    "uniqueid": "u1.97c46f83",
+    "data": {
+      "unitid": "U1",
+      "id": 4,
+      "title": "Odd Numbers",
+      "points": {},
+      "paragraphs": [
+        "Numbers which are not the multiples of '2' are called 'Odd Numbers'.",
+        "$@Odd = {1, 3, 5, 7, .........}@$ "
+      ]
+    }
+  },
+  {
+    "uniqueid": "u1.8f9a1a0a",
+    "data": {
+      "unitid": "U1",
+      "id": 5,
+      "title": "",
+      "points": {},
+      "paragraphs": [
+        "The smallest Natural Number is '1 ' and the smallest Whole Number is '0'."
+      ]
+    }
+  },
+  {
+    "uniqueid": "u1.8b6d3f14",
+    "data": {
+      "unitid": "U1",
+      "id": 6,
+      "title": "",
+      "points": {},
+      "paragraphs": [
+        "There do not exist the largest Natural number and the largest Whole number."
+      ]
+    }
+  },
+  {
+    "uniqueid": "u1.45208eb4",
+    "data": {
+      "unitid": "U1",
+      "id": 7,
+      "title": "",
+      "points": {},
+      "paragraphs": [
+        "The successor of any whole number is one more than that whole number.",
+        "Ex : Successor of 11 is 12, $@(11 + 1)@$"
+      ]
+    }
+  },
+  {
+    "uniqueid": "u1.5d787a8f",
+    "data": {
+      "unitid": "U1",
+      "id": 8,
+      "title": "",
+      "points": {},
+      "paragraphs": [
+        "The predecessor of any whole number is one less than that whole number.",
+        "Ex : Predecessor of 11 is 10 $@(11 - 1)@$"
+      ]
+    }
+  },
+  {
+    "uniqueid": "u1.ae97261a",
+    "data": {
+      "unitid": "U1",
+      "id": 9,
+      "title": "",
+      "points": {},
+      "paragraphs": [
+        "There is no predecessor of zero in whole numbers."
+      ]
+    }
+  },
+  {
+    "uniqueid": "u1.6481388a",
+    "data": {
+      "unitid": "U1",
+      "id": 10,
+      "title": "Face value and place value",
+      "paragraphs": [],
+      "points": {
+        "p1": [
+          "Face value of a digit is the digit itsell",
+          "Ex.: Face value of '5' in 325 is '5'"
         ],
-        "points": {
-          "p1": [
-            "$@a + b@$ is a whole number",
-            "$@Ex: 3 + 4 = 7@$ is a whole number"
-          ],
-          "p2": [
-            "$@a \\times b@$ is a whole number",
-            "$@Ex: 3 \\times 4 = 12@$ is a whole number"
-          ]
-        }
-      }
-    },
-    {
-      "uniqueid": "u1.d0f76f7f",
-      "data": {
-        "unitid": "U1",
-        "id": 13,
-        "title": "Commutative Property",
-        "paragraphs": [],
-        "points": {
-          "p1": [
-            "$@a + b = b + a @$",
-            "$@Ex: 4 + 5 = 5 + 4 = 9@$"
-          ],
-          "p2": [
-            "$@a \\times b = b \\times a @$",
-            "$@Ex: 4 \\times 5 = 5 \\times 4 = 20@$"
-          ]
-        }
-      }
-    },
-    {
-      "uniqueid": "u1.e126041a",
-      "data": {
-        "unitid": "U1",
-        "id": 14,
-        "title": "Associative Property",
-        "paragraphs": [],
-        "points": {
-          "p1": [
-            "$@a + (b + c) = (a + b) + c @$",
-            "$@Ex: 3 + (4 + 5) = (3 + 4) + 5 = 12@$"
-          ],
-          "p2": [
-            "$@a \\times (b \\times c) = (a \\times b) \\times c @$",
-            "$@Ex: 3 \\times (4 \\times 5) = (3 \\times 4) \\times 5 = 60@$"
-          ]
-        }
-      }
-    },
-    {
-      "uniqueid": "u1.7cf7467d",
-      "data": {
-        "unitid": "U1",
-        "id": 15,
-        "title": "Distributive Property",
-        "paragraphs": [],
-        "points": {
-          "p1": [
-            "$@a \\times (b + c) = (a \\times b) + (a \\times c) @$",
-            "$@Ex: 3 \\times (4 + 5) = (3 \\times 4) + (3 \\times 5) = 27@$"
-          ],
-          "p2": [
-            "$@a \\times (b - c) = (a \\times b) - (a \\times c) @$",
-            "$@Ex: 3 \\times (5 - 4) = (3 \\times 5) - (3 \\times 4) = 3@$"
-          ]
-        }
-      }
-    },
-    {
-      "uniqueid": "u1.524a5e60",
-      "data": {
-        "unitid": "U1",
-        "id": 16,
-        "title": "",
-        "paragraphs": [],
-        "points": {
-          "p1": [
-            "$@a + 0 = 0 + a = a@$"
-          ],
-          "p2": [
-            "$@a - 0 = a@$"
-          ],
-          "p3": [
-            "$@a \\times 1 = 1 \\times a = a@$"
-          ],
-          "p4": [
-            "$@a + 1 = a@$"
-          ],
-          "p5": [
-            "$@a - b \\neq b - a@$"
-          ],
-          "p6": [
-            "$@a \\times 0 = 0 \\times a = 0@$"
-          ],
-          "p7": [
-            "$@0 + a = 0 @$ and $@\\frac{a}{0}@$ is not defined."
-          ]
-        }
-      }
-    },
-    {
-      "uniqueid": "u1.816c1aaa",
-      "data": {
-        "unitid": "U1",
-        "id": 17,
-        "title": "Integers",
-        "paragraphs": [
-          "Integers are the collection of all the Natural numbers with both positive and negative sign along with zero."
-        ],
-        "points": {
-          "p1": [
-            "$@Integers = {........., -4, -3, -2, -1, 0, 1, 2, 3, 4 ,.........}@$"
-          ],
-          "p2": [
-            "$@Positive Integers = {1, 2, 3, 4 ,.........}@$"
-          ],
-          "p3": [
-            "$@Negative Integers = {........., -4, -3, -2, -1}@$"
-          ],
-          "p4": [
-            "Zero is neither positive nor negative."
-          ]
-        }
-      }
-    },
-    {
-      "uniqueid": "u1.ed2666d6",
-      "data": {
-        "unitid": "U1",
-        "id": 18,
-        "title": "Absolute Value",
-        "points": {},
-        "paragraphs": [
-          "The absolute value ofan integer is the numerical value (magnitude) irrespective of its sign.",
-          "$@Ex: \\lvert 6 \\rvert=6, and,\\lvert -6 \\rvert=6@$"
-        ]
-      }
-    },
-    {
-      "uniqueid": "u1.12f9ee9b",
-      "data": {
-        "unitid": "U1",
-        "id": 19,
-        "title": "Closure Property",
-        "points": {},
-        "paragraphs": [
-          "If 'a' and 'b' are any two integers then a + b is also an integer.",
-          "$@Ex: 4 + 5 = 9 ,and, 4 + (-5) = -1 @$"
-        ]
-      }
-    },
-    {
-      "uniqueid": "u1.9b4e3ad8",
-      "data": {
-        "unitid": "U1",
-        "id": 20,
-        "title": "",
-        "paragraphs": [],
-        "points": {
-          "p1": [
-            "'0' is the identity element in addition.",
-            "$@Ex: 5 + 0 = 5 ,and, -5 + 0 = -5 @$"
-          ],
-          "p2": [
-            "'1' is the identity element in multiplication",
-            "$@Ex: 5 \\times 1 = 1 \\times 5 = 5 ,and, -5 \\times 1 = -5 @$"
-          ]
-        }
-      }
-    },
-    {
-      "uniqueid": "u1.c4ae69fc",
-      "data": {
-        "unitid": "U1",
-        "id": 21,
-        "title": "Inverse",
-        "paragraphs": [],
-        "points": {
-          "p1": [
-            "The additive inverse of any integer 'a' is '-a'. ",
-            "Ex: The additive inverse of 4 is -4 "
-          ],
-          "p2": [
-            "The multiplicative inverse of any integer 'a' is $@\\frac{1}{a} (a \\neq 0)@$",
-            "Ex : The multiplicative inverse of 4 is $@\\frac{1}{4}@$"
-          ]
-        }
-      }
-    },
-    {
-      "uniqueid": "u1.6380a801",
-      "data": {
-        "unitid": "U1",
-        "id": 22,
-        "title": "Number line",
-        "points": {
-          "p1": [
-            "Every positive integer is greater than every negative integer."
-          ],
-          "p2": [
-            "Zero is less than every positive integer."
-          ],
-          "p3": [
-            "Zero is greater than every negative integer."
-          ]
-        },
-        "paragraphs": [
-          "Every whole number on the right of the number line is greater than every whole number to its left.",
-          "$@Ex. 5 > 0; 5 > 1; 5 > -3; -3 > -4; 0 > -2@$",
-          "geogebra:300:A(0,1);B(1,1);f(x)=Line(A,B);SetColor(f,'#32CD32');ShowLabel(f,true);ShowLabel(A,true);ShowLabel(B,true)"
-        ]
-      }
-    },
-    {
-      "uniqueid": "u1.3137de72",
-      "data": {
-        "unitid": "U1",
-        "id": 23,
-        "title": "Rational Number",
-        "points": {},
-        "paragraphs": [
-          "A number which can be expressed in the form $@\\frac{p}{q}@$ where 'p' and 'q' are integers and $@,(q \\neq 0)@$ is called a Rational number.",
-          "$@Ex: \\frac{3}{4} -\\frac{4}{7},and,-\\frac{5}{8} @$"
-        ]
-      }
-    },
-    {
-      "uniqueid": "u1.a37c7f3c",
-      "data": {
-        "unitid": "U1",
-        "id": 24,
-        "title": "Rational Numbers satisfy",
-        "paragraphs": [],
-        "points": {
-          "p1": [
-            "(i) Closure property."
-          ],
-          "p2": [
-            "(ii) Commutative property."
-          ],
-          "p3": [
-            "(iii) Associative property."
-          ],
-          "p4": [
-            "(iv) Distributive property."
-          ]
-        }
-      }
-    },
-    {
-      "uniqueid": "u1.5b80985a",
-      "data": {
-        "unitid": "U1",
-        "id": 25,
-        "title": "Reciprocal",
-        "points": {},
-        "paragraphs": [
-          " Reciprocal of a rational number $@\\frac{p}{q}@$ is $@\\frac{q}{p}@$",
-          "Ex: Reciprocals of $@\\frac{3}{5} is -\\frac{5}{3}, -\\frac{5}{7} is \\frac{7}{-5}@$"
-        ]
-      }
-    },
-    {
-      "uniqueid": "u1.e17c7650",
-      "data": {
-        "unitid": "U1",
-        "id": 26,
-        "title": "",
-        "points": {},
-        "paragraphs": [
-          "The product of a rational number and its reciprocal is '1'.",
-          "$@Ex: \\frac{5}{7} \\times -\\frac{7}{5} = 1, \\frac{-3}{-5} \\times \\frac{-5}{-3} = 1 @$"
-        ]
-      }
-    },
-    {
-      "uniqueid": "u1.20c83e3e",
-      "data": {
-        "unitid": "U1",
-        "id": 27,
-        "title": "",
-        "points": {},
-        "paragraphs": [
-          "If 'x' and 'y' are any two rational numbers, then $@\\frac{x + y}{2}@$ is a rational number between 'x' and 'y'.",
-          "Ex : Let $@\\frac{3}{2} and \\frac{4}{3}@$ and be any two rational numbers, then $@\\frac{ \\frac{3}{2} + \\frac{4}{3} }{2} = \\frac{17}{12}@$ is a rational number between $@\\frac{3}{2} and \\frac{4}{3}@$"
-        ]
-      }
-    },
-    {
-      "uniqueid": "u1.6eeb4b67",
-      "data": {
-        "unitid": "U1",
-        "id": 28,
-        "title": "Decimal Representation of Rational Numbers",
-        "points": {},
-        "paragraphs": [
-          "Every rational number can be expressed as a decimal.",
-          "Ex : $@\\frac{1}{5} = 0.2 , \\frac{3}{10} = 0.3 @$"
-        ]
-      }
-    },
-    {
-      "uniqueid": "u1.56d13522",
-      "data": {
-        "unitid": "U1",
-        "id": 29,
-        "title": "",
-        "paragraphs": [
-          "Terminating and non-terminating decimals."
-        ],
-        "points": {
-          "p1": [
-            "Numbers with a finite decimal part are known as finite or terminating decimals.",
-            "Ex : $@\\frac{1}{2} = 0.5 , \\frac{1}{8} = 0.125 @$"
-          ],
-          "p2": [
-            "Numbers with infinite decimal part are known as non-terminating decimals.",
-            "Ex : $@\\frac{1}{3} = 0.3333...@$ This can be expressed as $@= 0.\\bar3@$"
-          ]
-        }
-      }
-    },
-    {
-      "uniqueid": "u1.9b60baf8",
-      "data": {
-        "unitid": "U1",
-        "id": 30,
-        "title": "",
-        "points": {},
-        "paragraphs": [
-          "Representation of numbers in scientific notation.78",
-          "Ex : $@ 58000 = 5.8 \\times 10^{4} , 0.00067 = 6.7 \\times 10^{-4} @$"
+        "p2": [
+          "Place value of a digit is the value of the digit in its place.",
+          "Ex. : Place value of '5' in 352 is 50 $@[5 \\times 10]@$"
         ]
       }
     }
-  ]
-}
+  },
+  {
+    "uniqueid": "u1.a4d5035c",
+    "data": {
+      "unitid": "U1",
+      "id": 11,
+      "title": "Consecutive Numbers",
+      "points": {},
+      "paragraphs": [
+        "The Numbers which differ from each other by one are called 'Consecutive Numbers'.",
+        "Ex. : 13, 14 and 19, 20 are consecutive numbers"
+      ]
+    }
+  },
+  {
+    "uniqueid": "u1.ff6de663",
+    "data": {
+      "unitid": "U1",
+      "id": 12,
+      "title": "Closure Property",
+      "paragraphs": [
+        "Let a, b and c be any three Whole Numbers. Then"
+      ],
+      "points": {
+        "p1": [
+          "$@a + b@$ is a whole number",
+          "$@Ex: 3 + 4 = 7@$ is a whole number"
+        ],
+        "p2": [
+          "$@a \\times b@$ is a whole number",
+          "$@Ex: 3 \\times 4 = 12@$ is a whole number"
+        ]
+      }
+    }
+  },
+  {
+    "uniqueid": "u1.d0f76f7f",
+    "data": {
+      "unitid": "U1",
+      "id": 13,
+      "title": "Commutative Property",
+      "paragraphs": [],
+      "points": {
+        "p1": [
+          "$@a + b = b + a @$",
+          "$@Ex: 4 + 5 = 5 + 4 = 9@$"
+        ],
+        "p2": [
+          "$@a \\times b = b \\times a @$",
+          "$@Ex: 4 \\times 5 = 5 \\times 4 = 20@$"
+        ]
+      }
+    }
+  },
+  {
+    "uniqueid": "u1.e126041a",
+    "data": {
+      "unitid": "U1",
+      "id": 14,
+      "title": "Associative Property",
+      "paragraphs": [],
+      "points": {
+        "p1": [
+          "$@a + (b + c) = (a + b) + c @$",
+          "$@Ex: 3 + (4 + 5) = (3 + 4) + 5 = 12@$"
+        ],
+        "p2": [
+          "$@a \\times (b \\times c) = (a \\times b) \\times c @$",
+          "$@Ex: 3 \\times (4 \\times 5) = (3 \\times 4) \\times 5 = 60@$"
+        ]
+      }
+    }
+  },
+  {
+    "uniqueid": "u1.7cf7467d",
+    "data": {
+      "unitid": "U1",
+      "id": 15,
+      "title": "Distributive Property",
+      "paragraphs": [],
+      "points": {
+        "p1": [
+          "$@a \\times (b + c) = (a \\times b) + (a \\times c) @$",
+          "$@Ex: 3 \\times (4 + 5) = (3 \\times 4) + (3 \\times 5) = 27@$"
+        ],
+        "p2": [
+          "$@a \\times (b - c) = (a \\times b) - (a \\times c) @$",
+          "$@Ex: 3 \\times (5 - 4) = (3 \\times 5) - (3 \\times 4) = 3@$"
+        ]
+      }
+    }
+  },
+  {
+    "uniqueid": "u1.524a5e60",
+    "data": {
+      "unitid": "U1",
+      "id": 16,
+      "title": "",
+      "paragraphs": [],
+      "points": {
+        "p1": [
+          "$@a + 0 = 0 + a = a@$"
+        ],
+        "p2": [
+          "$@a - 0 = a@$"
+        ],
+        "p3": [
+          "$@a \\times 1 = 1 \\times a = a@$"
+        ],
+        "p4": [
+          "$@a + 1 = a@$"
+        ],
+        "p5": [
+          "$@a - b \\neq b - a@$"
+        ],
+        "p6": [
+          "$@a \\times 0 = 0 \\times a = 0@$"
+        ],
+        "p7": [
+          "$@0 + a = 0 @$ and $@\\frac{a}{0}@$ is not defined."
+        ]
+      }
+    }
+  },
+  {
+    "uniqueid": "u1.816c1aaa",
+    "data": {
+      "unitid": "U1",
+      "id": 17,
+      "title": "Integers",
+      "paragraphs": [
+        "Integers are the collection of all the Natural numbers with both positive and negative sign along with zero."
+      ],
+      "points": {
+        "p1": [
+          "$@Integers = {........., -4, -3, -2, -1, 0, 1, 2, 3, 4 ,.........}@$"
+        ],
+        "p2": [
+          "$@Positive Integers = {1, 2, 3, 4 ,.........}@$"
+        ],
+        "p3": [
+          "$@Negative Integers = {........., -4, -3, -2, -1}@$"
+        ],
+        "p4": [
+          "Zero is neither positive nor negative."
+        ]
+      }
+    }
+  },
+  {
+    "uniqueid": "u1.ed2666d6",
+    "data": {
+      "unitid": "U1",
+      "id": 18,
+      "title": "Absolute Value",
+      "points": {},
+      "paragraphs": [
+        "The absolute value ofan integer is the numerical value (magnitude) irrespective of its sign.",
+        "$@Ex: \\lvert 6 \\rvert=6, and,\\lvert -6 \\rvert=6@$"
+      ]
+    }
+  },
+  {
+    "uniqueid": "u1.12f9ee9b",
+    "data": {
+      "unitid": "U1",
+      "id": 19,
+      "title": "Closure Property",
+      "points": {},
+      "paragraphs": [
+        "If 'a' and 'b' are any two integers then a + b is also an integer.",
+        "$@Ex: 4 + 5 = 9 ,and, 4 + (-5) = -1 @$"
+      ]
+    }
+  },
+  {
+    "uniqueid": "u1.9b4e3ad8",
+    "data": {
+      "unitid": "U1",
+      "id": 20,
+      "title": "",
+      "paragraphs": [],
+      "points": {
+        "p1": [
+          "'0' is the identity element in addition.",
+          "$@Ex: 5 + 0 = 5 ,and, -5 + 0 = -5 @$"
+        ],
+        "p2": [
+          "'1' is the identity element in multiplication",
+          "$@Ex: 5 \\times 1 = 1 \\times 5 = 5 ,and, -5 \\times 1 = -5 @$"
+        ]
+      }
+    }
+  },
+  {
+    "uniqueid": "u1.c4ae69fc",
+    "data": {
+      "unitid": "U1",
+      "id": 21,
+      "title": "Inverse",
+      "paragraphs": [],
+      "points": {
+        "p1": [
+          "The additive inverse of any integer 'a' is '-a'. ",
+          "Ex: The additive inverse of 4 is -4 "
+        ],
+        "p2": [
+          "The multiplicative inverse of any integer 'a' is $@\\frac{1}{a} (a \\neq 0)@$",
+          "Ex : The multiplicative inverse of 4 is $@\\frac{1}{4}@$"
+        ]
+      }
+    }
+  },
+  {
+    "uniqueid": "u1.6380a801",
+    "data": {
+      "unitid": "U1",
+      "id": 22,
+      "title": "Number line",
+      "points": {
+        "p1": [
+          "Every positive integer is greater than every negative integer."
+        ],
+        "p2": [
+          "Zero is less than every positive integer."
+        ],
+        "p3": [
+          "Zero is greater than every negative integer."
+        ]
+      },
+      "paragraphs": [
+        "Every whole number on the right of the number line is greater than every whole number to its left.",
+        "$@Ex. 5 > 0; 5 > 1; 5 > -3; -3 > -4; 0 > -2@$",
+        "geogebra:A(0,1);B(1,1);f(x)=Line(A,B);SetColor(f,'#32CD32');ShowLabel(f,true);ShowLabel(A,true);ShowLabel(B,true)"
+      ]
+    }
+  },
+  {
+    "uniqueid": "u1.3137de72",
+    "data": {
+      "unitid": "U1",
+      "id": 23,
+      "title": "Rational Number",
+      "points": {},
+      "paragraphs": [
+        "A number which can be expressed in the form $@\\frac{p}{q}@$ where 'p' and 'q' are integers and $@,(q \\neq 0)@$ is called a Rational number.",
+        "$@Ex: \\frac{3}{4} -\\frac{4}{7},and,-\\frac{5}{8} @$"
+      ]
+    }
+  },
+  {
+    "uniqueid": "u1.a37c7f3c",
+    "data": {
+      "unitid": "U1",
+      "id": 24,
+      "title": "Rational Numbers satisfy",
+      "paragraphs": [],
+      "points": {
+        "p1": [
+          "(i) Closure property."
+        ],
+        "p2": [
+          "(ii) Commutative property."
+        ],
+        "p3": [
+          "(iii) Associative property."
+        ],
+        "p4": [
+          "(iv) Distributive property."
+        ]
+      }
+    }
+  },
+  {
+    "uniqueid": "u1.5b80985a",
+    "data": {
+      "unitid": "U1",
+      "id": 25,
+      "title": "Reciprocal",
+      "points": {},
+      "paragraphs": [
+        " Reciprocal of a rational number $@\\frac{p}{q}@$ is $@\\frac{q}{p}@$",
+        "Ex: Reciprocals of $@\\frac{3}{5} is -\\frac{5}{3}, -\\frac{5}{7} is \\frac{7}{-5}@$"
+      ]
+    }
+  },
+  {
+    "uniqueid": "u1.e17c7650",
+    "data": {
+      "unitid": "U1",
+      "id": 26,
+      "title": "",
+      "points": {},
+      "paragraphs": [
+        "The product of a rational number and its reciprocal is '1'.",
+        "$@Ex: \\frac{5}{7} \\times -\\frac{7}{5} = 1, \\frac{-3}{-5} \\times \\frac{-5}{-3} = 1 @$"
+      ]
+    }
+  },
+  {
+    "uniqueid": "u1.20c83e3e",
+    "data": {
+      "unitid": "U1",
+      "id": 27,
+      "title": "",
+      "points": {},
+      "paragraphs": [
+        "If 'x' and 'y' are any two rational numbers, then $@\\frac{x + y}{2}@$ is a rational number between 'x' and 'y'.",
+        "Ex : Let $@\\frac{3}{2} and \\frac{4}{3}@$ and be any two rational numbers, then $@\\frac{ \\frac{3}{2} + \\frac{4}{3} }{2} = \\frac{17}{12}@$ is a rational number between $@\\frac{3}{2} and \\frac{4}{3}@$"
+      ]
+    }
+  },
+  {
+    "uniqueid": "u1.6eeb4b67",
+    "data": {
+      "unitid": "U1",
+      "id": 28,
+      "title": "Decimal Representation of Rational Numbers",
+      "points": {},
+      "paragraphs": [
+        "Every rational number can be expressed as a decimal.",
+        "Ex : $@\\frac{1}{5} = 0.2 , \\frac{3}{10} = 0.3 @$"
+      ]
+    }
+  },
+  {
+    "uniqueid": "u1.56d13522",
+    "data": {
+      "unitid": "U1",
+      "id": 29,
+      "title": "",
+      "paragraphs": [
+        "Terminating and non-terminating decimals."
+      ],
+      "points": {
+        "p1": [
+          "Numbers with a finite decimal part are known as finite or terminating decimals.",
+          "Ex : $@\\frac{1}{2} = 0.5 , \\frac{1}{8} = 0.125 @$"
+        ],
+        "p2": [
+          "Numbers with infinite decimal part are known as non-terminating decimals.",
+          "Ex : $@\\frac{1}{3} = 0.3333...@$ This can be expressed as $@= 0.\\bar3@$"
+        ]
+      }
+    }
+  },
+  {
+    "uniqueid": "u1.9b60baf8",
+    "data": {
+      "unitid": "U1",
+      "id": 30,
+      "title": "",
+      "points": {},
+      "paragraphs": [
+        "Representation of numbers in scientific notation.78",
+        "Ex : $@ 58000 = 5.8 \\times 10^{4} , 0.00067 = 6.7 \\times 10^{-4} @$"
+      ]
+    }
+  }
+]
